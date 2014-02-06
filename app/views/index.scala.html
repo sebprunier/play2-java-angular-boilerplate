@@ -1,0 +1,20 @@
+@()
+
+@layout.layout("play2-java-angular-boilerplate") {
+
+<h1>play2-java-angular-boilerplate</h1>
+
+<h2>TODO list</h2>
+
+<div ng-controller="TodoListCtrl">
+
+<ul>
+    <li ng-repeat="todo in todos">
+        {{todo.title}}
+        <p>{{todo.description}}</p>
+    </li>
+</ul>
+
+</div>
+
+}
